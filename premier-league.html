@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
     <!-- Primary Meta Tags -->
-    <title>ترتيب الدوري الإنجليزي ومباريات اليوم | كورة لايف Koora Live</title>
-    <meta name="description" content="تابع جدول ترتيب الدوري الإنجليزي الممتاز (Premier League) ونتائج مباريات اليوم مباشرة على كورة لايف Koora Live. أهداف، إحصائيات، ومواعيد المباريات مجاناً وبث مباشر.">
-    <meta name="keywords" content="ترتيب الدوري الانجليزي, الدوري الانجليزي الممتاز, كورة لايف, نتائج الدوري الانجليزي, مباريات اليوم, بث مباشر">
+    <title>EPL Standings & Live Scores | Koora Live</title>
+    <meta name="description" content="Check the English Premier League standings, fixtures, results and live match details on Koora Live. All updated instantly.">
+    <meta name="keywords" content="epl standings, premier league table, epl scores, koora live, kora live, english premier league fixtures">
     <meta name="author" content="Koora Live">
     <link rel="canonical" href="https://bankacem.github.io/Koora-live./premier-league.html">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bankacem.github.io/Koora-live./premier-league.html">
-    <meta property="og:title" content="ترتيب الدوري الإنجليزي ومباريات اليوم | كورة لايف Koora Live">
-    <meta property="og:description" content="تابع جدول ترتيب الدوري الإنجليزي الممتاز ونتائج مباريات اليوم مباشرة على كورة لايف Koora Live مجاناً وسرعة فائقة.">
+    <meta property="og:title" content="EPL Standings & Live Scores | Koora Live">
+    <meta property="og:description" content="Check the English Premier League standings, fixtures, results and live match details on Koora Live. All updated instantly.">
     <meta property="og:image" content="https://bankacem.github.io/Koora-live./assets/og-image.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="الدوري الإنجليزي - كورة لايف">
-    <meta property="twitter:description" content="جدول ترتيب الدوري الإنجليزي الممتاز وبث مباشر للمباريات.">
+    <meta property="twitter:title" content="EPL Standings - Koora Live">
+    <meta property="twitter:description" content="EPL standings, fixtures and real-time scores on Koora Live.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -35,7 +35,7 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "ترتيب الدوري الإنجليزي - كورة لايف",
+      "name": "EPL Standings - Koora Live",
       "url": "https://bankacem.github.io/Koora-live./premier-league.html"
     }
     </script>
@@ -47,13 +47,13 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "الرئيسية",
+          "name": "Home",
           "item": "https://bankacem.github.io/Koora-live./"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "الدوري الإنجليزي",
+          "name": "Premier League",
           "item": "https://bankacem.github.io/Koora-live./premier-league.html"
         }
       ]
@@ -64,40 +64,43 @@
     <!-- SEO-friendly Header -->
     <header class="site-header">
         <div class="container header-container">
-            <a href="./" class="logo">⚽ كورة لايف | KooraLive</a>
+            <a href="./" class="logo">⚽ KooraLive | كورة لايف</a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="./">مباريات اليوم (Scores)</a></li>
-                    <li><a href="./premier-league.html" aria-current="page">الدوري الإنجليزي (EPL)</a></li>
-                    <li><a href="./#news">أخبار الرياضة (News)</a></li>
+                    <li><a href="./" data-translate="navScores">Live Scores</a></li>
+                    <li><a href="./premier-league.html" aria-current="page" data-translate="navEPL">Premier League</a></li>
+                    <li><a href="./#news" data-translate="navNews">Sports News</a></li>
                 </ul>
             </nav>
+            <div class="lang-selector">
+                <button class="btn btn-lang" id="btn-lang-toggle">العربية</button>
+            </div>
         </div>
     </header>
 
     <!-- Main Content -->
     <main class="container">
         <!-- H1 is critical for SEO -->
-        <h1 class="page-title">مباريات وترتيب الدوري الإنجليزي الممتاز</h1>
+        <h1 class="page-title" data-translate="eplTitle">Premier League Fixtures & Standings</h1>
 
         <!-- Breadcrumbs for UI and SEO -->
         <nav aria-label="breadcrumb" class="breadcrumbs">
             <ol>
-                <li><a href="./">الرئيسية</a></li>
-                <li>الدوري الإنجليزي الممتاز</li>
+                <li><a href="./" data-translate="breadHome">Home</a></li>
+                <li data-translate="breadEPL">Premier League</li>
             </ol>
         </nav>
 
         <div class="layout-grid epl-layout">
             <!-- Left Column: Matches -->
             <section class="livescores-section" aria-label="EPL Live Match Scores">
-                <h2 class="section-subtitle">مباريات الجولة الحالية | Fixtures & Scores</h2>
+                <h2 class="section-subtitle" data-translate="currentRound">Current Round Matches</h2>
                 <div class="controls">
-                    <button class="btn active" id="btn-all">كل مباريات الدوري (All Matches)</button>
-                    <button class="btn" id="btn-live">مباشر الآن (Live Now) <span class="pulse"></span></button>
+                    <button class="btn active" id="btn-all" data-translate="btnAll">All Matches</button>
+                    <button class="btn" id="btn-live" data-translate="btnLive">Live Now <span class="pulse"></span></button>
                 </div>
 
-                <div id="loading-state" class="loader">جاري جلب المباريات الحية... Fetching data...</div>
+                <div id="loading-state" class="loader" data-translate="loadingMatches">Fetching live data...</div>
 
                 <!-- Match Data Injected Here via JS -->
                 <div id="match-container" class="match-list" aria-live="polite"></div>
@@ -105,21 +108,21 @@
 
             <!-- Right Column: Standings -->
             <section class="standings-section" aria-label="EPL Standings Table">
-                <h2 class="section-subtitle">جدول ترتيب الدوري الإنجليزي الممتاز | EPL Standings</h2>
-                <div id="standings-loading" class="loader">جاري تحميل جدول الترتيب... Fetching standings...</div>
+                <h2 class="section-subtitle" data-translate="eplStandingsTitle">Premier League Standings</h2>
+                <div id="standings-loading" class="loader" data-translate="loadingStandings">Fetching standings...</div>
                 <div id="standings-container" class="standings-container"></div>
             </section>
         </div>
 
         <section class="seo-content box epl-info-box">
-            <h2>تغطية الدوري الإنجليزي الممتاز (EPL) على كورة لايف</h2>
-            <p>نوفر لكم تغطية حصرية ومباشرة لجدول ترتيب الدوري الإنجليزي الممتاز لحظة بلحظة مع تحديثات فورية للأهداف والبطاقات والتغييرات. تابع صراع مانشستر سيتي، آرسنال، ليفربول، تشيلسي، ومانشستر يونايتد على اللقب والمراكز المؤهلة لدوري أبطال أوروبا مباشرة ومجاناً.</p>
+            <h2 data-translate="seoEPLTitle">Premier League Coverage on Koora Live</h2>
+            <p data-translate="seoEPLText">We bring you instant real-time coverage of the English Premier League standings, goal updates, bookings, and team forms. Track Manchester City, Arsenal, Liverpool, Chelsea, and Manchester United in their quest for the title and Champions League spots, all completely free.</p>
         </section>
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> كورة لايف | KooraLive. جميع الحقوق محفوظة.</p>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> KooraLive | كورة لايف. <span data-translate="allRights">All rights reserved.</span></p>
         </div>
     </footer>
 

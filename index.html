@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
     <!-- Primary Meta Tags -->
-    <title>كورة لايف | بث مباشر مباريات اليوم ونتائج حية | Koora Live Scores</title>
-    <meta name="description" content="تابع نتائج مباريات اليوم بث مباشر وجدول الترتيب والهدافين على كورة لايف Koora Live. تغطية حية للدوري الإنجليزي الممتاز ودوري أبطال أوروبا وسائر الدوريات العالمية مجاناً وبأقصى سرعة.">
-    <meta name="keywords" content="كورة لايف, koora live, kora live, بث مباشر, نتائج حية, مباريات اليوم, الدوري الانجليزي, جدول الترتيب">
+    <title>Koora Live | Real-Time Match Scores & Football Updates</title>
+    <meta name="description" content="Get real-time football live scores, results, fixtures, standings and premium sports articles on Koora Live. Fast, free, and accurate.">
+    <meta name="keywords" content="koora live, kora live, football live scores, soccer results, premier league scores, live match updates">
     <meta name="author" content="Koora Live">
     <link rel="canonical" href="https://bankacem.github.io/Koora-live./">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bankacem.github.io/Koora-live./">
-    <meta property="og:title" content="كورة لايف | بث مباشر مباريات اليوم ونتائج حية | Koora Live Scores">
-    <meta property="og:description" content="تابع نتائج مباريات اليوم بث مباشر وجدول الترتيب والهدافين على كورة لايف Koora Live. تغطية حية للدوري الإنجليزي الممتاز وسائر الدوريات العالمية.">
+    <meta property="og:title" content="Koora Live | Real-Time Match Scores & Football Updates">
+    <meta property="og:description" content="Get real-time football live scores, results, fixtures, standings and premium sports articles on Koora Live. Fast, free, and accurate.">
     <meta property="og:image" content="https://bankacem.github.io/Koora-live./assets/og-image.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="كورة لايف - Koora Live">
-    <meta property="twitter:description" content="نتائج حية ومباشرة لمباريات اليوم مجاناً وسرعة فائقة بدون انقطاع.">
+    <meta property="twitter:title" content="Koora Live">
+    <meta property="twitter:description" content="Real-time football scores and fixtures. Fast, free, and accurate.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -60,7 +60,7 @@
       "itemListElement": [{
         "@type": "ListItem",
         "position": 1,
-        "name": "الرئيسية (Home)",
+        "name": "Home",
         "item": "https://bankacem.github.io/Koora-live./"
       }]
     }
@@ -70,27 +70,30 @@
     <!-- SEO-friendly Header -->
     <header class="site-header">
         <div class="container header-container">
-            <a href="./" class="logo">⚽ كورة لايف | KooraLive</a>
+            <a href="./" class="logo">⚽ KooraLive | كورة لايف</a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="./" aria-current="page">مباريات اليوم (Scores)</a></li>
-                    <li><a href="./premier-league.html">الدوري الإنجليزي (EPL)</a></li>
-                    <li><a href="#news">أخبار الرياضة (News)</a></li>
+                    <li><a href="./" aria-current="page" data-translate="navScores">Live Scores</a></li>
+                    <li><a href="./premier-league.html" data-translate="navEPL">Premier League</a></li>
+                    <li><a href="#news" data-translate="navNews">Sports News</a></li>
                 </ul>
             </nav>
+            <div class="lang-selector">
+                <button class="btn btn-lang" id="btn-lang-toggle">العربية</button>
+            </div>
         </div>
     </header>
 
     <!-- Main Content -->
     <main class="container">
         <!-- H1 is critical for SEO -->
-        <h1 class="page-title">نتائج مباريات اليوم بث مباشر | Live Football Scores</h1>
+        <h1 class="page-title" data-translate="todayTitle">Today's Live Football Scores</h1>
 
         <!-- Breadcrumbs for UI and SEO -->
         <nav aria-label="breadcrumb" class="breadcrumbs">
             <ol>
-                <li><a href="./">الرئيسية</a></li>
-                <li>مباريات اليوم</li>
+                <li><a href="./" data-translate="breadHome">Home</a></li>
+                <li data-translate="breadLive">Live Matches</li>
             </ol>
         </nav>
 
@@ -98,11 +101,11 @@
             <!-- Left/Main Column: Livescores -->
             <section class="livescores-section" aria-label="Live Match Scores">
                 <div class="controls">
-                    <button class="btn active" id="btn-all">كل المباريات (All Matches)</button>
-                    <button class="btn" id="btn-live">مباشر الآن (Live Now) <span class="pulse"></span></button>
+                    <button class="btn active" id="btn-all" data-translate="btnAll">All Matches</button>
+                    <button class="btn" id="btn-live" data-translate="btnLive">Live Now <span class="pulse"></span></button>
                 </div>
 
-                <div id="loading-state" class="loader">جاري جلب المباريات الحية... Fetching live data...</div>
+                <div id="loading-state" class="loader" data-translate="loadingMatches">Fetching live data...</div>
 
                 <!-- Match Data Injected Here via JS -->
                 <div id="match-container" class="match-list" aria-live="polite"></div>
@@ -111,19 +114,19 @@
             <!-- Right Sidebar: SEO Text & Related Content -->
             <aside class="sidebar">
                 <section class="seo-content box">
-                    <h2>حول كورة لايف - Koora Live</h2>
-                    <p>مرحباً بكم في موقع كورة لايف الرسمي، المنصة الأسرع والأكثر دقة لعرض نتائج مباريات كرة القدم مباشرة وبدون تقطيع. نغطي كافة البطولات العالمية والمحلية مثل الدوري الإنجليزي، الإسباني، دوري أبطال أوروبا والبطولات العربية بكفاءة عالية وبدون الحاجة لإعادة تحميل الصفحة.</p>
+                    <h2 data-translate="aboutTitle">About Koora Live</h2>
+                    <p data-translate="aboutText">Welcome to the official Koora Live website, the fastest and most accurate platform for football scores and live match results. We cover major global and local tournaments including the English Premier League, La Liga, and UEFA Champions League with high efficiency and real-time updates.</p>
                 </section>
 
                 <section class="faq-section box">
-                    <h3>الأسئلة الشائعة (FAQ)</h3>
+                    <h3 data-translate="faqTitle">Frequently Asked Questions (FAQ)</h3>
                     <details>
-                        <summary>كم مرة يتم تحديث النتائج؟</summary>
-                        <p>تتحدث النتائج فورياً كل 30 ثانية من مصادر موثوقة ومفتوحة لضمان أدق التفاصيل لجمهورنا العربي.</p>
+                        <summary data-translate="faqQ1">How often are scores updated?</summary>
+                        <p data-translate="faqA1">Scores are updated automatically every 30 seconds from open, reliable sources to ensure complete accuracy.</p>
                     </details>
                     <details>
-                        <summary>هل الخدمة مجانية بالكامل؟</summary>
-                        <p>نعم، موقع كورة لايف مجاني بالكامل ولا يتطلب أي رسوم اشتراك أو حساب لمتابعة المباريات.</p>
+                        <summary data-translate="faqQ2">Is this service completely free?</summary>
+                        <p data-translate="faqA2">Yes, Koora Live is 100% free and does not require any subscriptions or accounts to follow live match scores.</p>
                     </details>
                 </section>
             </aside>
@@ -131,16 +134,24 @@
 
         <!-- High-Quality Articles/News Section -->
         <section id="news" class="articles-section">
-            <h2 class="section-title">آخر الأخبار الرياضية وتقارير المباريات | Sports News</h2>
+            <h2 class="section-title" data-translate="newsSectionTitle">Latest Football News & Reports</h2>
             <div class="articles-grid" id="articles-container">
-                <!-- Articles will be inserted here or written statically for absolute indexation -->
+                <!-- Articles will be inserted here dynamically -->
             </div>
         </section>
     </main>
 
+    <!-- Beautiful Article Reader Modal -->
+    <div id="article-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modal-close-btn">&times;</span>
+            <div id="modal-article-body"></div>
+        </div>
+    </div>
+
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> كورة لايف | KooraLive. جميع الحقوق محفوظة.</p>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> KooraLive | كورة لايف. <span data-translate="allRights">All rights reserved.</span></p>
         </div>
     </footer>
 
