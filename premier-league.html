@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Premier League Live Scores & Standings | Real-Time Updates</title>
+    <meta name="description" content="Get real-time Premier League scores, results, fixtures, and standings. Fully updated, accurate, and free.">
+    <meta name="keywords" content="premier league live scores, epl results, english premier league fixtures, soccer epl scores">
+    <meta name="author" content="Your Brand">
+    <link rel="canonical" href="https://yourdomain.com/premier-league.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/premier-league.html">
+    <meta property="og:title" content="Premier League Live Scores & Standings | Real-Time Updates">
+    <meta property="og:description" content="Get real-time Premier League scores, results, fixtures, and standings. Fully updated, accurate, and free.">
+    <meta property="og:image" content="https://yourdomain.com/assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Premier League Live Scores & Standings">
+    <meta property="twitter:description" content="Get real-time Premier League scores, results, fixtures, and standings. Fully updated, accurate, and free.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://site.api.espn.com">
+    <link rel="preconnect" href="https://corsproxy.io">
+
+    <!-- Static Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Premier League Live Scores",
+      "url": "https://yourdomain.com/premier-league.html"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://yourdomain.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Premier League",
+          "item": "https://yourdomain.com/premier-league.html"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- SEO-friendly Header -->
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="logo">⚽ ScoreLive</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Live Scores</a></li>
+                    <li><a href="/premier-league.html" aria-current="page">Premier League</a></li>
+                    <li><a href="#news">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- H1 is critical for SEO -->
+        <h1 class="page-title">Premier League Live Scores</h1>
+
+        <!-- Breadcrumbs for UI and SEO -->
+        <nav aria-label="breadcrumb" class="breadcrumbs">
+            <ol>
+                <li><a href="/">Home</a></li>
+                <li>Premier League</li>
+            </ol>
+        </nav>
+
+        <div class="layout-grid">
+            <!-- Left/Main Column: Livescores -->
+            <section class="livescores-section" aria-label="Live Match Scores">
+                <div class="controls">
+                    <button class="btn active" id="btn-all">All Matches</button>
+                    <button class="btn" id="btn-live">Live Now <span class="pulse"></span></button>
+                </div>
+
+                <div id="loading-state" class="loader">Fetching Premier League data...</div>
+
+                <!-- Match Data Injected Here via JS -->
+                <div id="match-container" class="match-list" aria-live="polite"></div>
+            </section>
+
+            <!-- Right Sidebar: SEO Text & Related Content -->
+            <aside class="sidebar">
+                <section class="seo-content box">
+                    <h2>Premier League (EPL) Live Score Coverage</h2>
+                    <p>Track the English Premier League with real-time updates. Check the latest results, fixtures, goals, and team form for Arsenal, Chelsea, Liverpool, Manchester City, Manchester United, and more EPL clubs.</p>
+                </section>
+
+                <section class="faq-section box">
+                    <h3>Premier League FAQ</h3>
+                    <details>
+                        <summary>Which teams are tracked?</summary>
+                        <p>All 20 Premier League clubs are tracked dynamically from open data APIs.</p>
+                    </details>
+                    <details>
+                        <summary>Is there any delay in goals?</summary>
+                        <p>Scores are updated within 30-60 seconds depending on the ESPN live API feed response.</p>
+                    </details>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> ScoreLive. Built with Vanilla JS & Open Data.</p>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
