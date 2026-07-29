@@ -615,7 +615,7 @@ class LivescoreApp {
                 <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
                     <meta itemprop="name" content="كورة لايف">
                     <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-                        <meta itemprop="url" content="https://bankacem.github.io/Koora-live./assets/logo.png">
+                        <meta itemprop="url" content="https://bankacem.github.io/koora-live-scores/assets/logo.png">
                     </div>
                 </div>
             </article>
