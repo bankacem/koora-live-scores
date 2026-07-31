@@ -1,161 +1,81 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-
-    <!-- Primary Meta Tags -->
-    <title>Koora Live | Real-Time Match Scores & Football Updates</title>
-    <meta name="description" content="Get real-time football live scores, results, fixtures, standings and premium sports articles on Koora Live. Fast, free, and accurate.">
-    <meta name="keywords" content="koora live, kora live, football live scores, soccer results, premier league scores, live match updates">
-    <meta name="author" content="Koora Live">
-    <link rel="canonical" href="https://bankacem.github.io/koora-live-scores/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bankacem.github.io/koora-live-scores/">
-    <meta property="og:title" content="Koora Live | Real-Time Match Scores & Football Updates">
-    <meta property="og:description" content="Get real-time football live scores, results, fixtures, standings and premium sports articles on Koora Live. Fast, free, and accurate.">
-    <meta property="og:image" content="https://bankacem.github.io/koora-live-scores/assets/og-image.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Koora Live">
-    <meta property="twitter:description" content="Real-time football scores and fixtures. Fast, free, and accurate.">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Preconnect to external domains for performance -->
-    <link rel="preconnect" href="https://site.api.espn.com">
-    <link rel="preconnect" href="https://corsproxy.io">
-
-    <!-- Static Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "كورة لايف - Koora Live",
-      "url": "https://bankacem.github.io/koora-live-scores/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://bankacem.github.io/koora-live-scores/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Koora Live",
-      "url": "https://bankacem.github.io/koora-live-scores/",
-      "logo": "https://bankacem.github.io/koora-live-scores/assets/logo.png"
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://bankacem.github.io/koora-live-scores/"
-      }]
-    }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>Koora Live | Real-Time Match Scores, Standings & Football News</title>
+<meta name="description" content="Live football scores, standings and fixtures for the Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League, Saudi Pro League and more — updated every minute, free, no login required.">
+<link rel="canonical" href="https://bankacem.github.io/koora-live-scores/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Koora Live | Real-Time Match Scores">
+<meta property="og:description" content="Live football scores and standings across major world leagues, updated every minute.">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Koora Live",
+  "url": "https://bankacem.github.io/koora-live-scores/"
+}
+</script>
 </head>
 <body>
-    <!-- SEO-friendly Header -->
-    <header class="site-header">
-        <div class="container header-container">
-            <a href="./" class="logo">⚽ KooraLive | كورة لايف</a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="./" aria-current="page" data-translate="navScores">Live Scores</a></li>
-                    <li><a href="./premier-league.html" data-translate="navEPL">Premier League</a></li>
-                    <li><a href="#news" data-translate="navNews">Sports News</a></li>
-                </ul>
-            </nav>
-            <div class="lang-selector">
-                <button class="btn btn-lang" id="btn-lang-toggle">العربية</button>
-            </div>
-        </div>
-    </header>
 
-    <!-- Main Content -->
-    <main class="container">
-        <!-- H1 is critical for SEO -->
-        <h1 class="page-title" data-translate="todayTitle">Today's Live Football Scores</h1>
-
-        <!-- Breadcrumbs for UI and SEO -->
-        <nav aria-label="breadcrumb" class="breadcrumbs">
-            <ol>
-                <li><a href="./" data-translate="breadHome">Home</a></li>
-                <li data-translate="breadLive">Live Matches</li>
-            </ol>
-        </nav>
-
-        <div class="layout-grid">
-            <!-- Left/Main Column: Livescores -->
-            <section class="livescores-section" aria-label="Live Match Scores">
-                <div class="controls">
-                    <button class="btn active" id="btn-all" data-translate="btnAll">All Matches</button>
-                    <button class="btn" id="btn-live" data-translate="btnLive">Live Now <span class="pulse"></span></button>
-                </div>
-
-                <div id="loading-state" class="loader" data-translate="loadingMatches">Fetching live data...</div>
-
-                <!-- Match Data Injected Here via JS -->
-                <div id="match-container" class="match-list" aria-live="polite"></div>
-            </section>
-
-            <!-- Right Sidebar: SEO Text & Related Content -->
-            <aside class="sidebar">
-                <section class="seo-content box">
-                    <h2 data-translate="aboutTitle">About Koora Live</h2>
-                    <p data-translate="aboutText">Welcome to the official Koora Live website, the fastest and most accurate platform for football scores and live match results. We cover major global and local tournaments including the English Premier League, La Liga, and UEFA Champions League with high efficiency and real-time updates.</p>
-                </section>
-
-                <section class="faq-section box">
-                    <h3 data-translate="faqTitle">Frequently Asked Questions (FAQ)</h3>
-                    <details>
-                        <summary data-translate="faqQ1">How often are scores updated?</summary>
-                        <p data-translate="faqA1">Scores are updated automatically every 30 seconds from open, reliable sources to ensure complete accuracy.</p>
-                    </details>
-                    <details>
-                        <summary data-translate="faqQ2">Is this service completely free?</summary>
-                        <p data-translate="faqA2">Yes, Koora Live is 100% free and does not require any subscriptions or accounts to follow live match scores.</p>
-                    </details>
-                </section>
-            </aside>
-        </div>
-
-        <!-- High-Quality Articles/News Section -->
-        <section id="news" class="articles-section">
-            <h2 class="section-title" data-translate="newsSectionTitle">Latest Football News & Reports</h2>
-            <div class="articles-grid" id="articles-container">
-                <!-- Articles will be inserted here dynamically -->
-            </div>
-        </section>
-    </main>
-
-    <!-- Beautiful Article Reader Modal -->
-    <div id="article-modal" class="modal">
-        <div class="modal-content">
-            <span class="modal-close" id="modal-close-btn">&times;</span>
-            <div id="modal-article-body"></div>
-        </div>
+<header class="site-header">
+  <div class="container header-container">
+    <a href="./" class="logo">⚽ KooraLive</a>
+    <nav class="main-nav">
+      <a href="./" aria-current="page" data-i18n="navHome">Live Scores</a>
+      <a href="#news" data-i18n="navNews">News</a>
+    </nav>
+    <div class="lang-selector">
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ar">AR</button>
+      <button class="lang-btn" data-lang="fr">FR</button>
+      <button class="lang-btn" data-lang="es">ES</button>
     </div>
+  </div>
+</header>
 
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> KooraLive | كورة لايف. <span data-translate="allRights">All rights reserved.</span></p>
-        </div>
-    </footer>
+<!-- League switcher -->
+<div class="league-nav-wrap">
+  <div class="container">
+    <nav id="league-nav" class="league-nav" aria-label="Competitions"></nav>
+  </div>
+</div>
 
-    <!-- App Logic -->
-    <script src="app.js"></script>
+<main class="container">
+  <div class="controls-row">
+    <div class="controls">
+      <button class="btn active" id="btn-all" data-i18n="btnAll">All Matches</button>
+      <button class="btn" id="btn-live" data-i18n="btnLive">Live Now <span class="pulse"></span></button>
+    </div>
+    <span id="updated-label" class="updated-label"></span>
+  </div>
+
+  <div id="loading-state" class="loader" data-i18n="loadingMatches">Fetching live data...</div>
+  <div id="match-container" class="match-list" aria-live="polite"></div>
+
+  <section id="standings-wrap" class="box standings-box" style="display:none;">
+    <h2 data-i18n="standingsTitle">Standings</h2>
+    <div id="standings-container"></div>
+  </section>
+
+  <section id="news" class="articles-section">
+    <h2 class="section-title" data-i18n="navNews">News</h2>
+    <div class="articles-grid" id="articles-container"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> KooraLive. <span data-i18n="allRights">All rights reserved.</span></p>
+  </div>
+</footer>
+
+<script src="assets/leagues.js"></script>
+<script src="app.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
