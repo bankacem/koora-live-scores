@@ -1,0 +1,57 @@
+name: Update Live Scores Data
+
+# GitHub does not allow scheduling more often than every 5 minutes.
+# To get ~1-minute freshness anyway, each run loops internally 5 times
+# (60s apart), so the 5-minute cron schedule effectively covers every
+# minute of the day without violating GitHub's limits.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {} # allows manual "Run workflow" button for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run 5 update cycles (~1/minute)
+        run: |
+          git config user.name "koora-bot"
+          git config user.email "koora-bot@users.noreply.github.com"
+
+          for i in 1 2 3 4 5; do
+            echo "== Cycle $i =="
+            node scripts/fetch-data.mjs
+
+            if [[ -n "$(git status --porcelain data)" ]]; then
+              git add data
+              git commit --amend --no-edit -q || git commit -q -m "chore: update scores [skip ci]"
+              git push --force-with-lease origin data
+              echo "Pushed update, purging jsDelivr cache..."
+              curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/data/all-today.json" > /dev/null || true
+            else
+              echo "No data changes this cycle."
+            fi
+
+            if [ "$i" -lt 5 ]; then
+              sleep 60
+            fi
+          done
