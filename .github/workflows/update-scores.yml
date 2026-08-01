@@ -32,6 +32,18 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Fetch news (once per run, not every cycle)
+        run: |
+          node scripts/fetch-news.mjs
+          if [[ -n "$(git status --porcelain data/news)" ]]; then
+            git config user.name "koora-bot"
+            git config user.email "koora-bot@users.noreply.github.com"
+            git add data/news
+            git commit --amend --no-edit -q || git commit -q -m "chore: update news [skip ci]"
+            git push --force-with-lease origin data
+            curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/data/news/en.json" > /dev/null || true
+          fi
+
       - name: Run 5 update cycles (~1/minute)
         run: |
           git config user.name "koora-bot"

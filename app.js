@@ -65,6 +65,10 @@ class DataService {
     return this._safeFetch(`${CDN_BASE}/all-today.json`, { updatedAt: null, matches: [] });
   }
 
+  async getNews(lang) {
+    return this._safeFetch(`${CDN_BASE}/news/${lang}.json`, { updatedAt: null, items: [] });
+  }
+
   async _safeFetch(url, fallback) {
     try {
       // cache-bust lightly so the CDN's edge refresh (purged by the workflow)
@@ -95,9 +99,6 @@ class KooraApp {
     this.standingsContainer = document.getElementById("standings-container");
     this.updatedLabel = document.getElementById("updated-label");
     this.articlesContainer = document.getElementById("articles-container");
-    this.modal = document.getElementById("article-modal");
-    this.modalClose = document.getElementById("modal-close-btn");
-    this.modalBody = document.getElementById("modal-article-body");
   }
 
   async init() {
@@ -105,7 +106,7 @@ class KooraApp {
     this.i18n.applyToDom();
     this.renderLeagueNav();
     this.bindEvents();
-    this.renderArticles();
+    this.loadArticles();
     await this.loadCurrentView();
     setInterval(() => this.loadCurrentView(), 20000); // client polls the CDN, not the origin API
   }
@@ -127,18 +128,9 @@ class KooraApp {
         this.i18n.applyToDom();
         this.renderLeagueNav();
         this.render();
-        this.renderArticles();
+        this.loadArticles();
       });
     });
-
-    if (this.modalClose) {
-      this.modalClose.addEventListener("click", () => this.closeArticleModal());
-    }
-    if (this.modal) {
-      this.modal.addEventListener("click", (e) => {
-        if (e.target === this.modal) this.closeArticleModal();
-      });
-    }
   }
 
   toggleActiveBtn(target) {
@@ -291,132 +283,37 @@ class KooraApp {
         <tbody>${rows}</tbody>
       </table>`;
   }
-  // ---- News / Articles ----
-  // Static editorial content for now (kept out of the auto-updating data
-  // pipeline on purpose). Add languages by adding a key here matching
-  // SUPPORTED_LANGS; unsupported languages fall back to English.
-  getArticlesData() {
-    const en = [
-      {
-        id: "art-1",
-        title: "Premier League Title Race Heats Up: Tactics and Predictions",
-        excerpt: "An intense battle for the Premier League crown erupts between Arsenal, Manchester City, and Liverpool.",
-        tag: "Premier League",
-        date: "July 28, 2026",
-        image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=400",
-        author: "Koora Live Staff",
-        content:
-          "The English Premier League title race is reaching an unprecedented level of drama this season. Arsenal's defensive stability, paired with Manchester City's tactical versatility and Liverpool's high-octane offensive transitions, has created a three-way tug of war.\n\nWith only a few rounds remaining, squad depth and high-pressure performance will determine who raises the historic silverware.",
-      },
-      {
-        id: "art-2",
-        title: "The Evolution of Modern Football Formations and Strategies",
-        excerpt: "Modern football demands hybrid positions and fluid shape transitions.",
-        tag: "Tactics",
-        date: "July 27, 2026",
-        image: "https://images.unsplash.com/photo-1543351611-58f69d7c1781?auto=format&fit=crop&q=80&w=400",
-        author: "Tactical Analyst",
-        content:
-          "Gone are the days of rigid 4-4-2 systems. Today's elite football is defined by continuous fluid rotation and hybrid player roles: inverted fullbacks, high pressing triggers, and sweeper keepers integrated into build-up play.",
-      },
-      {
-        id: "art-3",
-        title: "Summer Transfer Window: Hits, Misses and Surprise Signings",
-        excerpt: "A complete review of the biggest summer transfers and their immediate impact.",
-        tag: "Transfers",
-        date: "July 26, 2026",
-        image: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&q=80&w=400",
-        author: "Newsroom",
-        content:
-          "The summer transfer window has closed, leaving behind dramatic deals, astronomical valuations, and tactical restructuring across the continent's biggest clubs.",
-      },
-    ];
-
-    const ar = [
-      {
-        id: "art-1",
-        title: "تحليل صراع صدارة الدوري الإنجليزي الممتاز والمنافسة الشرسة",
-        excerpt: "يشتعل الصراع على الصدارة بين آرسنال ومانشستر سيتي وليفربول هذا الموسم.",
-        tag: "الدوري الإنجليزي",
-        date: "28 يوليو 2026",
-        image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=400",
-        author: "كورة لايف",
-        content:
-          "تشهد بطولة الدوري الإنجليزي الممتاز صراعاً ملحمياً هذا الموسم على الصدارة. آرسنال بصلابته الدفاعية، مانشستر سيتي بمرونته التكتيكية، وليفربول بقوته الهجومية يتنافسون جميعاً على اللقب.\n\nمع بقاء جولات قليلة، سيكون عمق التشكيلة هو العامل الحاسم.",
-      },
-      {
-        id: "art-2",
-        title: "تكتيكات المدربين الجدد وتأثيرها على شكل الأداء في الملاعب",
-        excerpt: "تغييرات جذرية يشهدها تكتيك اللعب هذا العام في الكرة الأوروبية.",
-        tag: "تحليل كروي",
-        date: "27 يوليو 2026",
-        image: "https://images.unsplash.com/photo-1543351611-58f69d7c1781?auto=format&fit=crop&q=80&w=400",
-        author: "محلل كورة لايف",
-        content:
-          "لقد ولت أيام الخطط الجامدة مثل 4-4-2. كرة القدم الحديثة أصبحت أكثر مرونة تعتمد على المراكز الهجينة، الظهير الوهمي، ومحفزات الضغط العالي.",
-      },
-      {
-        id: "art-3",
-        title: "أفضل صفقات الصيف وتوقعات الخبراء للموسم الكروي الجديد",
-        excerpt: "تقرير شامل عن أهم الانتقالات الكروية وتأثيرها المتوقع.",
-        tag: "انتقالات",
-        date: "26 يوليو 2026",
-        image: "https://images.unsplash.com/photo-1518063319789-7217e6706b04?auto=format&fit=crop&q=80&w=400",
-        author: "غرفة الأخبار",
-        content:
-          "أغلقت نافذة الانتقالات الصيفية أبوابها، مخلفة وراءها صفقات مثيرة وأرقاماً فلكية وإعادة هيكلة واضحة لخطط الأندية الكبرى.",
-      },
-    ];
-
-    return { en, ar, fr: en, es: en }[this.i18n.lang] || en;
+  // ---- News / Articles (real RSS, fetched via the same CDN pipeline) ----
+  async loadArticles() {
+    if (!this.articlesContainer) return;
+    const payload = await this.data.getNews(this.i18n.lang);
+    this.articles = payload.items || [];
+    this.renderArticles();
   }
 
   renderArticles() {
     if (!this.articlesContainer) return;
-    const articles = this.getArticlesData();
-    const readMore = { en: "Read More →", ar: "اقرأ المزيد ←", fr: "Lire la suite →", es: "Leer más →" }[this.i18n.lang] || "Read More →";
 
-    this.articlesContainer.innerHTML = articles
+    if (!this.articles || this.articles.length === 0) {
+      this.articlesContainer.innerHTML = `<p class="empty-state">${this.i18n.t("noNews")}</p>`;
+      return;
+    }
+
+    const readMore = this.i18n.t("readOriginal");
+    this.articlesContainer.innerHTML = this.articles
       .map(
         (art) => `
-      <article class="article-card" data-id="${art.id}">
-        <img src="${art.image}" alt="${art.title}" class="article-image" loading="lazy">
+      <a class="article-card" href="${art.link}" target="_blank" rel="noopener noreferrer">
+        ${art.image ? `<img src="${art.image}" alt="" class="article-image" loading="lazy">` : ""}
         <div class="article-content">
-          <span class="article-tag">${art.tag}</span>
+          <span class="article-tag">${art.source}</span>
           <h3 class="article-title">${art.title}</h3>
           <p class="article-excerpt">${art.excerpt}</p>
-          <div style="font-weight:700; color: var(--primary); font-size:0.85rem;">${readMore}</div>
-          <div class="article-meta"><span>${art.author}</span><span>${art.date}</span></div>
+          <div class="article-readmore">${readMore}</div>
         </div>
-      </article>`
+      </a>`
       )
       .join("");
-
-    this.articlesContainer.querySelectorAll(".article-card").forEach((card) => {
-      card.addEventListener("click", () => this.openArticleModal(card.getAttribute("data-id"), articles));
-    });
-  }
-
-  openArticleModal(articleId, articles) {
-    if (!this.modal || !this.modalBody) return;
-    const article = articles.find((a) => a.id === articleId);
-    if (!article) return;
-
-    this.modalBody.innerHTML = `
-      <span class="modal-tag">${article.tag}</span>
-      <h2 class="modal-title">${article.title}</h2>
-      <div class="modal-meta"><strong>${article.author}</strong> · ${article.date}</div>
-      <img src="${article.image}" alt="${article.title}" class="modal-img">
-      <div class="modal-desc">${article.content}</div>`;
-
-    this.modal.classList.add("show");
-    document.body.style.overflow = "hidden";
-  }
-
-  closeArticleModal() {
-    if (!this.modal) return;
-    this.modal.classList.remove("show");
-    document.body.style.overflow = "auto";
   }
 }
 

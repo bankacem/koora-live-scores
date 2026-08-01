@@ -30,6 +30,8 @@
   "tablePoints": "PTS",
   "noMatches": "No matches currently available.",
   "noStandings": "No standings data available.",
+  "noNews": "No news available right now.",
+  "readOriginal": "Read on source ↗",
   "lastUpdated": "Last updated",
   "secondsAgo": "seconds ago",
   "minutesAgo": "minutes ago",

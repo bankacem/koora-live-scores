@@ -6,8 +6,43 @@
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://bankacem.github.io/koora-live-scores/premier-league.html</loc>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=epl</loc>
       <changefreq>hourly</changefreq>
-      <priority>0.9</priority>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=laliga</loc>
+      <changefreq>hourly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=seriea</loc>
+      <changefreq>hourly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=bundes</loc>
+      <changefreq>hourly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=ligue1</loc>
+      <changefreq>hourly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc>
+      <changefreq>hourly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc>
+      <changefreq>hourly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc>
+      <changefreq>hourly</changefreq>
+      <priority>0.7</priority>
    </url>
 </urlset>
