@@ -35,5 +35,8 @@
   "lastUpdated": "آخر تحديث",
   "secondsAgo": "ثانية مضت",
   "minutesAgo": "دقيقة مضت",
-  "allRights": "جميع الحقوق محفوظة."
+  "allRights": "جميع الحقوق محفوظة.",
+  "latestArticles": "أحدث المقالات",
+  "noArticles": "لا توجد مقالات بعد — تابعنا قريباً.",
+  "readArticle": "اقرأ المقال ←"
 }

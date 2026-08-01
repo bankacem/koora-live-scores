@@ -19,36 +19,68 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
     steps:
       - name: Checkout data branch
         uses: actions/checkout@v4
         with:
           ref: data
           fetch-depth: 1
+          path: data-branch
+
+      - name: Checkout code branch (Pages source, for article pages)
+        uses: actions/checkout@v4
+        with:
+          ref: feat/live-scores-app-10773362393206724486
+          fetch-depth: 1
+          path: site-branch
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Fetch news (once per run, not every cycle)
+      - name: Configure git identity
         run: |
-          node scripts/fetch-news.mjs
-          if [[ -n "$(git status --porcelain data/news)" ]]; then
-            git config user.name "koora-bot"
-            git config user.email "koora-bot@users.noreply.github.com"
-            git add data/news
-            git commit --amend --no-edit -q || git commit -q -m "chore: update news [skip ci]"
+          git -C data-branch config user.name "koora-bot"
+          git -C data-branch config user.email "koora-bot@users.noreply.github.com"
+          git -C site-branch config user.name "koora-bot"
+          git -C site-branch config user.email "koora-bot@users.noreply.github.com"
+
+      - name: Fetch news (once per run, not every cycle)
+        working-directory: data-branch
+        run: node scripts/fetch-news.mjs
+
+      - name: Generate original articles from new news (once per run)
+        working-directory: data-branch
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SITE_DIR: ${{ github.workspace }}/site-branch
+        run: node scripts/generate-articles.mjs
+
+      - name: Commit + push data branch (news + articles json)
+        working-directory: data-branch
+        run: |
+          if [[ -n "$(git status --porcelain data/news data/articles)" ]]; then
+            git add data/news data/articles
+            git commit --amend --no-edit -q || git commit -q -m "chore: update news + articles [skip ci]"
             git push --force-with-lease origin data
             curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/data/news/en.json" > /dev/null || true
+            curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/data/articles/en/index.json" > /dev/null || true
           fi
 
-      - name: Run 5 update cycles (~1/minute)
+      - name: Commit + push code branch (static article pages + sitemap)
+        working-directory: site-branch
         run: |
-          git config user.name "koora-bot"
-          git config user.email "koora-bot@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain articles sitemap.xml)" ]]; then
+            git add articles sitemap.xml
+            git commit -q -m "chore: publish new articles [skip ci]"
+            git push origin HEAD:feat/live-scores-app-10773362393206724486
+          fi
 
+      - name: Run 5 score-update cycles (~1/minute)
+        working-directory: data-branch
+        run: |
           for i in 1 2 3 4 5; do
             echo "== Cycle $i =="
             node scripts/fetch-data.mjs

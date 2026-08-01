@@ -35,5 +35,8 @@
   "lastUpdated": "Last updated",
   "secondsAgo": "seconds ago",
   "minutesAgo": "minutes ago",
-  "allRights": "All rights reserved."
+  "allRights": "All rights reserved.",
+  "latestArticles": "Latest Articles",
+  "noArticles": "No articles yet — check back soon.",
+  "readArticle": "Read article →"
 }

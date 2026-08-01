@@ -69,6 +69,10 @@ class DataService {
     return this._safeFetch(`${CDN_BASE}/news/${lang}.json`, { updatedAt: null, items: [] });
   }
 
+  async getGeneratedArticles(lang) {
+    return this._safeFetch(`${CDN_BASE}/articles/${lang}/index.json`, []);
+  }
+
   async _safeFetch(url, fallback) {
     try {
       // cache-bust lightly so the CDN's edge refresh (purged by the workflow)
@@ -99,6 +103,7 @@ class KooraApp {
     this.standingsContainer = document.getElementById("standings-container");
     this.updatedLabel = document.getElementById("updated-label");
     this.articlesContainer = document.getElementById("articles-container");
+    this.generatedArticlesContainer = document.getElementById("generated-articles-container");
   }
 
   async init() {
@@ -107,6 +112,7 @@ class KooraApp {
     this.renderLeagueNav();
     this.bindEvents();
     this.loadArticles();
+    this.loadGeneratedArticles();
     await this.loadCurrentView();
     setInterval(() => this.loadCurrentView(), 20000); // client polls the CDN, not the origin API
   }
@@ -129,6 +135,7 @@ class KooraApp {
         this.renderLeagueNav();
         this.render();
         this.loadArticles();
+        this.loadGeneratedArticles();
       });
     });
   }
@@ -283,6 +290,40 @@ class KooraApp {
         <tbody>${rows}</tbody>
       </table>`;
   }
+  // ---- Generated Articles (original, LLM-written, grounded in real RSS
+  // facts; published as real internal pages for SEO — see /articles/) ----
+  async loadGeneratedArticles() {
+    if (!this.generatedArticlesContainer) return;
+    const articles = await this.data.getGeneratedArticles(this.i18n.lang);
+    this.generatedArticles = Array.isArray(articles) ? articles : [];
+    this.renderGeneratedArticles();
+  }
+
+  renderGeneratedArticles() {
+    if (!this.generatedArticlesContainer) return;
+
+    if (!this.generatedArticles || this.generatedArticles.length === 0) {
+      this.generatedArticlesContainer.innerHTML = `<p class="empty-state">${this.i18n.t("noArticles")}</p>`;
+      return;
+    }
+
+    const readArticle = this.i18n.t("readArticle");
+    this.generatedArticlesContainer.innerHTML = this.generatedArticles
+      .slice(0, 9)
+      .map(
+        (art) => `
+      <a class="article-card" href="articles/${this.i18n.lang}/${art.slug}.html">
+        <div class="article-content">
+          <span class="article-tag">${art.sourceName}</span>
+          <h3 class="article-title">${art.title}</h3>
+          <p class="article-excerpt">${art.excerpt}</p>
+          <div class="article-readmore">${readArticle}</div>
+        </div>
+      </a>`
+      )
+      .join("");
+  }
+
   // ---- News / Articles (real RSS, fetched via the same CDN pipeline) ----
   async loadArticles() {
     if (!this.articlesContainer) return;
