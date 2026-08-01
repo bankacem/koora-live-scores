@@ -34,7 +34,7 @@ jobs:
           echo -e "\`\`\`" >> "$OUT"
 
           echo -e "\n## Chat completion tests\n" >> "$OUT"
-          MODELS=("gpt-4o-mini" "gpt-4o" "claude-3-5-sonnet-20241022" "claude-3-5-haiku-20241022" "deepseek-chat" "gemini-1.5-flash" "gemini-2.0-flash" "gpt-4.1-mini" "claude-sonnet-4-20250514")
+          MODELS=("gpt-4o" "gpt-4o-mini" "gpt-5-mini" "gpt-5.5" "gpt-5.2-chat" "openai/gpt-oss-120b" "openai/gpt-oss-20b" "gpt-oss-20b" "deepseek-ai/deepseek-v4-flash" "deepseek-v4-flash" "meta/llama-3.3-70b-instruct" "qwen2.5" "hy3" "z-ai/glm5" "mistralai/mistral-large")
           for m in "${MODELS[@]}"; do
             echo "### $m" >> "$OUT"
             echo '```' >> "$OUT"
