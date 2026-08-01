@@ -3,31 +3,51 @@ name: Probe Available Models (diagnostic, manual only)
 on:
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: List available models from the gateway
-        env:
-          GATEWAY_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          echo "== Fetching /v1/models list from api.bluesminds.com =="
-          curl -s -H "Authorization: Bearer ${GATEWAY_KEY}" \
-               -H "Content-Type: application/json" \
-               "https://api.bluesminds.com/v1/models" | python3 -m json.tool || echo "models list call failed"
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          fetch-depth: 1
 
-      - name: Test-call a small candidate list of common model IDs
+      - name: Probe gateway and write results to file
         env:
           GATEWAY_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          MODELS=("gpt-4o-mini" "gpt-4o" "claude-3-5-sonnet-20241022" "claude-3-5-haiku-20241022" "deepseek-chat" "gemini-1.5-flash" "gemini-2.0-flash")
+          OUT="data/_diagnostics/model-probe.md"
+          mkdir -p data/_diagnostics
+          echo "# Model probe results ($(date -u))" > "$OUT"
+
+          echo -e "\n## /v1/models list\n\`\`\`" >> "$OUT"
+          curl -s -H "Authorization: Bearer ${GATEWAY_KEY}" \
+               "https://api.bluesminds.com/v1/models" >> "$OUT" 2>&1 || echo "models list call failed" >> "$OUT"
+          echo -e "\`\`\`" >> "$OUT"
+
+          echo -e "\n## Chat completion tests\n" >> "$OUT"
+          MODELS=("gpt-4o-mini" "gpt-4o" "claude-3-5-sonnet-20241022" "claude-3-5-haiku-20241022" "deepseek-chat" "gemini-1.5-flash" "gemini-2.0-flash" "gpt-4.1-mini" "claude-sonnet-4-20250514")
           for m in "${MODELS[@]}"; do
-            echo "---- Testing model: $m ----"
-            curl -s -o /tmp/resp.json -w "HTTP_STATUS:%{http_code}\n" \
+            echo "### $m" >> "$OUT"
+            echo '```' >> "$OUT"
+            HTTP_CODE=$(curl -s -o /tmp/resp.json -w "%{http_code}" \
               -X POST "https://api.bluesminds.com/v1/chat/completions" \
               -H "Authorization: Bearer ${GATEWAY_KEY}" \
               -H "Content-Type: application/json" \
-              -d "{\"model\":\"$m\",\"messages\":[{\"role\":\"user\",\"content\":\"Reply with exactly: OK\"}],\"max_tokens\":10}"
-            cat /tmp/resp.json
-            echo
+              -d "{\"model\":\"$m\",\"messages\":[{\"role\":\"user\",\"content\":\"Reply with exactly: OK\"}],\"max_tokens\":10}")
+            echo "HTTP status: $HTTP_CODE" >> "$OUT"
+            cat /tmp/resp.json >> "$OUT"
+            echo -e "\n\`\`\`\n" >> "$OUT"
           done
+
+      - name: Commit results
+        run: |
+          git config user.name "koora-bot"
+          git config user.email "koora-bot@users.noreply.github.com"
+          git add data/_diagnostics
+          git commit -q -m "chore: model probe results"
+          git push origin HEAD:data
