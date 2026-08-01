@@ -1,0 +1,33 @@
+name: Probe Available Models (diagnostic, manual only)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List available models from the gateway
+        env:
+          GATEWAY_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          echo "== Fetching /v1/models list from api.bluesminds.com =="
+          curl -s -H "Authorization: Bearer ${GATEWAY_KEY}" \
+               -H "Content-Type: application/json" \
+               "https://api.bluesminds.com/v1/models" | python3 -m json.tool || echo "models list call failed"
+
+      - name: Test-call a small candidate list of common model IDs
+        env:
+          GATEWAY_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          MODELS=("gpt-4o-mini" "gpt-4o" "claude-3-5-sonnet-20241022" "claude-3-5-haiku-20241022" "deepseek-chat" "gemini-1.5-flash" "gemini-2.0-flash")
+          for m in "${MODELS[@]}"; do
+            echo "---- Testing model: $m ----"
+            curl -s -o /tmp/resp.json -w "HTTP_STATUS:%{http_code}\n" \
+              -X POST "https://api.bluesminds.com/v1/chat/completions" \
+              -H "Authorization: Bearer ${GATEWAY_KEY}" \
+              -H "Content-Type: application/json" \
+              -d "{\"model\":\"$m\",\"messages\":[{\"role\":\"user\",\"content\":\"Reply with exactly: OK\"}],\"max_tokens\":10}"
+            cat /tmp/resp.json
+            echo
+          done
