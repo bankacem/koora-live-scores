@@ -6,6 +6,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -44,10 +48,24 @@ jobs:
             echo -e "\n\`\`\`\n" >> "$OUT"
           done
 
-      - name: Commit results
+      - name: Commit results (safe against concurrent pushes from the main workflow)
         run: |
           git config user.name "koora-bot"
           git config user.email "koora-bot@users.noreply.github.com"
-          git add data/_diagnostics
-          git commit -q -m "chore: model probe results"
-          git push origin HEAD:data
+          cp -r data/_diagnostics /tmp/diag-backup
+
+          for attempt in 1 2 3; do
+            git fetch origin data
+            git reset --hard origin/data
+            rm -rf data/_diagnostics
+            cp -r /tmp/diag-backup data/_diagnostics
+            git add data/_diagnostics
+            git commit -q -m "chore: model probe results" || true
+            if git push origin HEAD:data; then
+              echo "Pushed successfully on attempt $attempt"
+              break
+            else
+              echo "Push failed (attempt $attempt), retrying..."
+              sleep 5
+            fi
+          done
