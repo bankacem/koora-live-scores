@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/matthias-jaissle-guides-newcastle-united-to-victory-in-trophy-clinch-moment.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/fifa-criticises-campaign-to-oust-president-infantino-bbc-sport-report.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/wissa-brace-seals-newcastle-friendly-win-as-jaissle-celebrates-first-game.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/barcelona-reportedly-submits-improved-bid-for-rodri.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -303,6 +304,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/نجم-برشلونة-يرغب-في-الانتقال-إلى-سان-جيرمان-ماذا-يعني-ذلك-للسوق-وللناديين.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تارونا-تافاكي-وتوفالو-ميدالية-برونزية-في-ألعاب-الكومنولث-تضع-الدولة-الصغيرة-تحت-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/فوزينيا-حارس-كاب-فيردي-يقترب-من-الانتقال-إلى-الدوري-المغربي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/liverpool-pourrait-activer-loption-dachat-pour-ronald-araujo-les-détails-révélés.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/anthony-elanga-victime-dun-tacle-violent-contre-valence-retour-sur-lincident.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-rassuré-avant-le-choc-contre-aston-villa-après-un-nul-face-à-manchester-unit.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/real-madrid-ladmiration-de-josé-mourinho-et-fede-valverde-pour-bernardo-silva.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -502,7 +504,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/amine-el-karma-suscite-lintérêt-le-jeune-coach-marocain-en-pleine-ascension.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/fifa-infantino-et-le-message-troublant-la-gouvernance-sous-le-feu-des-projecteur.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/om-jeffrey-de-lang-ne-rejoindra-pas-twente-quel-avenir-pour-les-gardiens-marseil.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/amical-liverpool-vs-leeds-à-chicago-les-reds-seffondrent-en-seconde-période.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/josé-manuel-soto-critica-duramente-a-pedro-sánchez-por-la-crisis-migratoria-en-c.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/messi-firma-autógrafos-en-un-supermercado-un-gesto-casual-que-copa-titulares.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/miguel-gutiérrez-fichaje-del-leverkusen-lateral-izquierdo-llega-desde-nápoles-po.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
