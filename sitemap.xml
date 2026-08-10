@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/transfer-window-player-swaps-what-premier-league-clubs-need-to-know.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/rangers-transfer-plans-chairman-andrew-cavanagh-expects-three-to-five-more-signi.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/jose-mourinhos-decision-to-decline-manchester-united-job-in-2013.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/jeff-bezos-linked-consortium-advances-talks-to-buy-30-liverpool-stake.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -369,6 +370,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/نجم-برشلونة-يرغب-في-الانتقال-إلى-سان-جيرمان-ماذا-يعني-ذلك-للسوق-وللناديين.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تارونا-تافاكي-وتوفالو-ميدالية-برونزية-في-ألعاب-الكومنولث-تضع-الدولة-الصغيرة-تحت-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/فوزينيا-حارس-كاب-فيردي-يقترب-من-الانتقال-إلى-الدوري-المغربي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/téji-savanier-sengage-à-metz-bilan-montpelliérain-et-ce-que-cela-peut-apporter-a.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ol-vs-sparta-prague-paulo-fonseca-annonce-des-décisions-fortes-avant-le-match.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/josé-mourinho-proche-dentraîner-manchester-united-en-2013-lanecdote-dévoilée-dan.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-et-mercato-le-club-proche-de-signer-laciné-megnan-pavé-un-jeune-talent-né-en.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/accord-imminent-entre-lom-et-newcastle-pour-pierre-emile-hojbjerg.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -567,8 +570,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-vs-rcd-majorque-pourquoi-ce-match-amical-dété-suscite-la-curiosité.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/yan-diomandé-au-cœur-des-négociations-entre-rb-leipzig-et-real-madrid.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/lom-se-prépare-à-changer-déquipementier-en-2025.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/le-losc-échoue-dans-sa-tentative-de-recrutement-à-10-m-pour-gjivai-zechiël.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/le-paris-fc-révèle-son-maillot-domicile-2026-2027-avec-adidas.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/josé-manuel-soto-critica-duramente-a-pedro-sánchez-por-la-crisis-migratoria-en-c.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/messi-firma-autógrafos-en-un-supermercado-un-gesto-casual-que-copa-titulares.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/miguel-gutiérrez-fichaje-del-leverkusen-lateral-izquierdo-llega-desde-nápoles-po.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
