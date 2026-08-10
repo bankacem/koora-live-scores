@@ -9,6 +9,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/micky-van-de-ven-signs-new-long-term-deal-with-spurs-what-it-means-for-tottenham.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/arsenal-transfer-targets-after-missing-out-on-vinicius-jr-what-the-club-could-do.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/man-city-on-the-verge-of-signing-bouaddi-as-arsenal-stars-ignite-transfer-buzz-a.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/west-ham-transfer-manor-solomon-joins-from-tottenham-on-three-year-contract.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/nottingham-forest-to-host-leeds-in-carabao-cup-second-round-clash.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -391,6 +393,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/نجم-برشلونة-يرغب-في-الانتقال-إلى-سان-جيرمان-ماذا-يعني-ذلك-للسوق-وللناديين.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تارونا-تافاكي-وتوفالو-ميدالية-برونزية-في-ألعاب-الكومنولث-تضع-الدولة-الصغيرة-تحت-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/فوزينيا-حارس-كاب-فيردي-يقترب-من-الانتقال-إلى-الدوري-المغربي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/lukraine-intensifie-la-pression-sur-la-fifa-et-gianni-infantino.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/julián-álvarez-prêt-à-forcer-son-départ-de-latlético-pour-rejoindre-barcelone.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/rb-leipzig-cible-deux-cadres-de-strasbourg-en-vue-de-la-ligue-1.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/linter-milan-cible-un-international-anglais-pour-son-couloir-droit.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -590,7 +593,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-battu-3-0-par-majorque-en-amical-une-rentrée-contrariée-pour-les-jeunes-pari.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/arsenal-chute-face-au-betis-en-match-amical-bilan-de-la-préparation-estivale.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/yassir-zabiri-transfert-pourquoi-le-championnat-de-france-ce-nest-pas-mon-style.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/as-rome-en-passe-de-recruter-nahuel-molina-accord-annoncé-avec-latlético-de-madr.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/josé-manuel-soto-critica-duramente-a-pedro-sánchez-por-la-crisis-migratoria-en-c.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/messi-firma-autógrafos-en-un-supermercado-un-gesto-casual-que-copa-titulares.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/miguel-gutiérrez-fichaje-del-leverkusen-lateral-izquierdo-llega-desde-nápoles-po.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
