@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/aston-villa-edge-closer-to-signing-atletico-madrid-defender-matteo-ruggeri.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/crystal-palace-transfer-monaco-reject-verbal-bid-for-midfielder-lamine-camara.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/lionel-messi-reflects-on-career-after-fathers-passing.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/ferran-torres-set-to-join-psg-barcelona-forward-misses-training-to-finalise-move.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/st-johnstone-vs-kilmarnock-highlights-seven-goal-thriller-at-mcdiarmid-park.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/west-ham-co-owner-advised-to-stay-away-from-home-matches-as-london-stadium-cites.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/real-madrid-to-resume-vinicius-jr-contract-talks-this-week-as-arsenal-wait-in-th.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/como-agree-31m-deal-to-sign-trevoh-chalobah-from-chelsea.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/إنريكي-وإيمري-تاريخ-المواجهات-المثير-قبل-صدام-جديد-في-السوبر-الأوروبي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/أهلي-حلب-وحمص-الفداء-يتأهلان-إلى-دوري-التحدي-الآسيوي-كيف-تحقق-الإنجاز.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/ميسي-يودع-والده-خورخي-برسالة-مؤثرة-كواليس-تكشف-لأول-مرة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -409,6 +409,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/فوزينيا-حارس-كاب-فيردي-يستقبل-بحفاوة-في-تشيلي-بعد-تألقه-العالمي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/ويلز-تسحب-دعمها-لإنفانتينو-دول-أوروبية-تهز-موازين-انتخابات-فيفا-في-المغرب.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مفاوضات-برشلونة-والهلال-بشأن-كانسيلو-تصل-لمرحلة-حاسمة-قبل-الحسم-خلال-أيام.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/lom-face-à-une-vague-de-départs-sur-le-mercato.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/eduardo-camavinga-piste-prestigieuse-et-avenir-incertain-au-real-madrid.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/mercato-strasbourg-un-été-sous-pression-entre-départs-contraintes-financières-et.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/cristiano-ronaldo-réagit-au-décès-du-père-de-leo-messi.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/chelsea-exige-5-m-pour-le-prêt-daxel-disasi-à-crystal-palace.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -607,8 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/atlético-diego-simeone-scelle-lavenir-de-julian-álvarez-à-séoul.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-sans-akliouche-contre-manchester-united-le-groupe-pour-göteborg-dévoilé.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/om-de-zerbi-voulait-partir-dès-août-2025-selon-medhi-benatia-révélations-relayée.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/lamine-camara-la-premier-league-sur-les-traces-de-la-pépite-de-las-monaco.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/benatia-critique-la-nomination-de-habib-beye-à-lom-un-choix-manqué.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/antonelli-busca-emular-el-superpoder-de-alonso-20-años-después.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/iván-romeo-destaca-en-polonia-antes-de-la-vuelta-con-movistar.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/fabián-ruiz-una-trayectoria-estelar-que-sigue-brillando-en-el-fútbol.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
