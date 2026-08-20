@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/premier-leagues-new-plan-to-end-corner-chaos-tackling-holding-shoving-and-jostli.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/matthias-jaissle-newcastle-uniteds-new-boss-on-injury-adversity-and-speaking-wit.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/west-ham-condemn-offensive-and-divisive-chant-about-manor-solomon-club-urges-fan.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/tottenham-open-transfer-talks-for-man-citys-savinho-and-marmoush.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/aston-villas-brian-madjo-shines-against-psg-in-uefa-super-cup-clash.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/psg-beat-aston-villa-in-uefa-super-cup-highlights-and-what-it-means.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/brian-madjo-aston-villa-debut-17-year-old-scores-in-uefa-super-cup-loss-to-paris.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/galatasaray-lodge-bid-for-gabriel-martinelli-as-chelsea-and-newcastle-circle-mid.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/قرعة-دوري-التحدي-الآسيوي-الأندية-العربية-في-مجموعات-متوازنة-وتنافس-محتدم-على-مقا.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/الملك-كازو-يفوز-في-كأس-اليابان-عند-59-عاما-تحليل-حول-الإنجاز-القياسي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/بايرن-ميونخ-يؤكد-استمرار-جمال-موسيالا-رغم-المشكلة-العصبية.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -409,6 +409,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/قاعدة-مفاجئة-قد-تحرم-إيرلينغ-هالاند-من-شارة-قيادة-مانشستر-سيتي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/نادي-إنجليزي-يغير-شعاره-مؤقتا-إلى-وجه-شخصية-إعلانية-تغيير-الشعار-والهوية-البصرية.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/3-أسباب-وراء-رفض-رودري-لريال-مدريد-وتفضيله-برشلونة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/gabriel-jesus-deux-clubs-de-premier-league-en-embuscade-alors-que-son-avenir-à-a.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/mercato-losc-vers-le-recrutement-dun-gardien-paraguayen-révélation-du-mondial-20.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/manchester-city-prépare-le-successeur-de-savinho-alors-que-tottenham-sactive-ave.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/transfert-bamba-dieng-lazio-un-départ-qui-capote-à-nouveau.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/chelsea-joão-pedro-va-prolonger-ce-que-lon-sait-et-ce-que-cela-implique.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -607,8 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/mercato-fc-barcelone-une-alternative-surprenante-envisagée-si-laffaire-julian-al.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ligue-des-champions-lol-se-rend-à-istanbul-pour-le-barrage-aller-contre-fenerbah.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/mathieu-valbuena-et-son-avis-tranché-sur-lom-version-genesio-ce-quil-faut-savoir.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/kang-in-lee-à-latlético-lancien-joueur-du-psg-affiche-de-grandes-ambitions.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/liverpool-2-0-côme-la-première-titularisation-de-jérémy-jacquet-qui-a-fait-forte.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/camargo-se-impone-en-el-alto-el-sifón-en-la-etapa-más-monstruosa-y-arrebata-el-l.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/el-rayo-cierra-el-fichaje-de-giorgi-tsitaishvili-refuerzo-ofensivo-según-marca.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/cristiano-ronaldo-y-el-desafío-de-los-1000-goles-en-la-saudi-pro-league.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
