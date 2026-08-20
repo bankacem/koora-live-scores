@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/how-to-watch-the-premier-league-opening-weekend-on-bbc-a-complete-guide.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/joao-cancelo-barcelona-transfer-portugal-full-back-rejoins-barça-after-al-hilal-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/premier-leagues-new-plan-to-end-corner-chaos-tackling-holding-shoving-and-jostli.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/matthias-jaissle-newcastle-uniteds-new-boss-on-injury-adversity-and-speaking-wit.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/lionel-messi-returns-to-inter-miami-after-fathers-passing.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/can-sunderland-surprise-the-premier-league-again-in-2026-27.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/aston-villas-brian-madjo-shines-against-psg-in-uefa-super-cup-clash.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/psg-beat-aston-villa-in-uefa-super-cup-highlights-and-what-it-means.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/عريضة-المشجعين-تطالب-برحيل-إنفانتينو-بحث-حول-شفافية-إدارة-فيفا.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/قرعة-دوري-التحدي-الآسيوي-الأندية-العربية-في-مجموعات-متوازنة-وتنافس-محتدم-على-مقا.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/الملك-كازو-يفوز-في-كأس-اليابان-عند-59-عاما-تحليل-حول-الإنجاز-القياسي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -409,6 +409,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/رونالدو-يعقد-قرانه-على-جورجينا-في-البرتغال-بعد-عشر-سنوات-من-الانتظار.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/قاعدة-مفاجئة-قد-تحرم-إيرلينغ-هالاند-من-شارة-قيادة-مانشستر-سيتي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/نادي-إنجليزي-يغير-شعاره-مؤقتا-إلى-وجه-شخصية-إعلانية-تغيير-الشعار-والهوية-البصرية.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/marius-broholm-prêté-à-fc-utrecht-une-nouvelle-étape-pour-le-losc.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/monaco-face-à-besiktas-un-dernier-duel-pour-le-choix-de-farès-ghedjemis.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/barça-pourquoi-pau-cubarsi-était-absent-lors-du-trophée-joan-gamper.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/munir-el-haddadi-revient-en-espagne-en-signant-en-d2-espagnole.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ilan-kebbal-quel-avenir-pour-lailier-algérien-après-sa-meilleure-saison-en-ligue.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -607,8 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/transfert-abdoul-ouattara-rejoint-ipswich-town-un-coup-ambitieux-du-mercato.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/as-monaco-relance-le-dossier-farès-ghedjemis-une-nouvelle-offre-transmise-à-fros.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/jean-clair-todibo-prêt-à-baisser-son-salaire-pour-rejoindre-lom-transfert-et-enj.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/diego-moreira-strasbourg-et-lac-milan-trouvent-un-accord-verbal-à-plus-de-50-m.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/julio-enciso-de-retour-à-ipswich-transfert-définitif-depuis-strasbourg-confirmé.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/camargo-se-impone-en-el-alto-el-sifón-en-la-etapa-más-monstruosa-y-arrebata-el-l.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/el-rayo-cierra-el-fichaje-de-giorgi-tsitaishvili-refuerzo-ofensivo-según-marca.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/cristiano-ronaldo-y-el-desafío-de-los-1000-goles-en-la-saudi-pro-league.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
