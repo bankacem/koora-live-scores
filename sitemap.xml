@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/barcelonas-striker-dilemma-can-they-navigate-la-liga-without-a-main-forward.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/why-are-there-so-few-african-players-in-the-wsl-examining-barriers-to-representa.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/psg-season-opener-moved-to-rennes-after-parc-des-princes-pitch-severely-damaged-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/five-in-five-football-quiz-no-4-can-you-answer-five-questions-in-five-minutes.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/bruno-guimaraes-makes-arsenal-debut-in-1-1-friendly-draw-with-como.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/bruno-fernandes-whats-next-for-manchester-uniteds-captain.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/chelsea-transfer-deadline-120m-demand-for-enzo-fernández-puts-pressure-on-intere.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/xavi-appointed-netherlands-coach-on-four-year-deal-historic-first-non-dutch-sele.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/ميسي-يسجل-هدفه-الأول-بعد-وفاة-والده-وإنتر-ميامي-يواصل-التعثر.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/إصابة-غامضة-لفيديريكو-غاتي-تربك-يوفنتوس-قبل-انطلاق-الموسم.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/روبرتو-كارلوس-والإشاعات-عن-اعتناقه-الإسلام-ما-كشفته-الجزيرة-نت-ومفاجأة-سهيلة-الط.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/ما-بعد-ميسي-ورونالدو-كيف-سيبدو-مشهد-كرة-القدم-بعد-مونديال-2026.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -408,7 +409,9 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/اتهام-بـالمال-مقابل-الصمت-يسلط-الضوء-على-تمويل-فيفا-وتأثيره-على-الاتحادات-الصغير.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مباشر-الجزيرة-الإماراتي-ضد-الاتحاد-السعودي-في-تصفيات-دوري-أبطال-آسيا-للنخبة-2026.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/إصابة-الرباط-الصليبي-تضرب-موهبة-برشلونة-قبل-الموسم-الجديد-ماذا-يعني-ذلك-للنادي-و.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/أسطورة-ألمانيا-ينصح-ناغلسمان-بالعمل-خارج-البلاد.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/lionel-messi-marque-en-hommage-à-son-père-décédé-lors-dun-match-avec-miami.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/everton-relance-lidée-dun-retour-de-jack-grealish-que-savons-nous.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/jordan-james-prêté-par-le-stade-rennais-à-wolverhampton-une-nouvelle-étape-clé.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/atalanta-maurizio-sarri-se-moque-publiquement-de-marcelo-bielsa-avant-le-barrage.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/estéban-lepaul-le-meilleur-buteur-de-ligue-1-vise-la-ligue-des-champions-avec-re.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/luis-enrique-envisage-un-repositionnement-pour-maghnes-akliouche-arsenal-sous-pr.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -606,9 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ipswich-va-recruter-deux-joueurs-de-strasbourg-pour-30-m-ce-que-ça-signifie.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/yann-kitala-vers-un-retour-en-france-que-disent-les-pistes-rapportées-par-foot-m.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-luis-enrique-persiste-avec-maghnes-akliouche-en-faux-neuf-un-projet-qui-avan.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/strasbourg-recrute-un-jeune-attaquant-du-real-madrid-transfert-et-contexte-avant.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/revue-de-presse-foot-mercato-rc-lens-séduit-rodri-au-barça-enflamme-la-catalogne.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/juventus-abandonne-la-piste-emiliano-martínez-implications-pour-le-mercato-des-g.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/camargo-se-impone-en-el-alto-el-sifón-en-la-etapa-más-monstruosa-y-arrebata-el-l.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/el-rayo-cierra-el-fichaje-de-giorgi-tsitaishvili-refuerzo-ofensivo-según-marca.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/cristiano-ronaldo-y-el-desafío-de-los-1000-goles-en-la-saudi-pro-league.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
