@@ -9,6 +9,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/lia-walti-reflects-on-valuation-as-a-footballer-after-juventus-stint.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/tottenham-target-omar-marmoush-masterstroke-or-risk.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/challenge-your-football-knowledge-with-bbc-sports-daily-quiz.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/chris-sutton-predicts-premier-league-opening-weekend-matches.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/tottenham-agree-75m-deal-to-sign-savinho-from-manchester-city.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -207,8 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/carrick-pushing-to-improve-manchester-united-squad-this-summer.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/enes-unal-transfers-from-bournemouth-to-getafe.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/who-could-replace-rodri-at-man-city-tactical-profiles-and-transfer-options.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/arsenal-transfer-news-gunners-invite-offers-for-martinelli-and-nwaneri-amid-talk.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/premier-league-shirts-gambling-ban-how-kits-will-change-after-clubs-vote.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/ريال-مدريد-و24-مليار-يورو-رقم-قياسي-يؤكد-تفوقه-التجاري-بين-أندية-العالم.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/إيمان-خليف-تحرك-مفاجئ-في-الملاكمة-الجزائرية-بألعاب-المتوسط-ماذا-يعني-هذا.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مشجع-بالزي-الفرعوني-يسرق-الأضواء-في-شوارع-طرابزون-خلال-دعم-صلاح-في-أولى-مبارياته.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
