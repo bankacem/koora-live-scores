@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/brentford-dominate-spurs-in-resounding-3-0-premier-league-victory.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/former-west-brom-midfielder-quevin-castro-dies-at-25-during-match.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/farkes-revival-at-leeds-united-sparks-premier-league-optimism.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/brentford-v-spurs-player-ratings-top-performers-and-tough-nights.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/newcastle-transfer-news-club-in-advanced-talks-with-benfica-over-defender-amar-d.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/sebastien-pocognoli-emerges-as-leading-candidate-for-scotland-manager-role.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/roberto-bautista-agut-scores-twice-on-football-debut-for-cd-els-ibarsos---former.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/efl-season-preview-2026-27-bbc-sport-podcast-with-aaron-paul-andy-woodman-luke-c.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تغطية-مباشرة-لمباراة-ريال-مدريد-ضد-إسبانيول-في-الدوري-الإسباني.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/هل-تستعيد-الأندية-الإيطالية-مجدها-القاري-عبر-التجديد-والدماء-الجديدة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/وفاة-لاعب-برتغالي-شاب-أثناء-مباراة-ودية-تصدم-الوسط-الرياضي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
