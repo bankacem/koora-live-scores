@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/feyenoord-fans-cause-injuries-with-fireworks-during-eredivisie-match.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/scottish-premiership-transfer-update-what-every-club-needs-before-deadline-day.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/crystal-palace-face-key-decision-over-jean-philippe-mateta-contract-dispute.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/benitez-reflects-as-alonso-and-arbeloa-face-off-as-managers.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/scottish-fa-withdraws-support-for-gianni-infantino-impact-on-fifa-re-election-pr.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/sebastien-pocognoli-new-scotland-boss-cites-passion-of-scottish-football-as-deci.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/sam-tierney-stays-as-leicester-city-plot-rebuild-after-wsl-relegation.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/yael-trepy-intensive-care-cagliari-striker-in-hospital-after-reported-sardinia-p.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/فابينيو-ينضم-إلى-طرابزون-سبور-التركي-خطوة-تعزز-الطموحات.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/رافينيا-يكشف-سر-احتفاله-بأسلوب-سبايدر-مان-أمام-إلتشي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/جماهير-آيندهوفن-تحتفي-بالمغربي-إسماعيل-صيباري-بعد-انتقاله-إلى-بايرن-ميونخ.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -409,6 +409,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/الدرع-الخيرية-أرسنال-ومانشستر-سيتي-يتنافسان-على-أول-ألقاب-الموسم.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/البريميرليغ-يطبق-9-قوانين-جديدة-تشديد-ضد-إضاعة-الوقت-ومنح-حكام-صلاحيات-أوسع.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/إصلاح-حوكمة-الفيفا-كيف-يمكن-كبح-نفوذ-رئيس-الفيفا-وإعادة-توازن-السلطة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/axel-disasi-prêt-à-rejoindre-crystal-palace-après-sa-visite-médicale.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/fc-barcelone-rassure-sur-la-blessure-de-gavi-après-la-victoire-contre-elche.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/vinicius-dans-la-controverse-après-le-premier-match-du-real-madrid-en-liga.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/fc-barcelone-six-dossiers-de-transfert-cruciaux-à-finaliser.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/bologne-décline-une-offre-de-40-m-de-latalanta-bergame-pour-jonathan-rowe.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -607,8 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/héctor-fort-vers-le-borussia-dortmund-un-choix-annoncé-selon-foot-mercato.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/julian-alvarez-latlético-de-madrid-accepte-une-offre-venant-dangleterre.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ligue-1-abdelatif-kherradji-condamné-pour-violences-conjugales-quelle-incidence-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/fc-barcelone-et-lautaro-martínez-accord-en-vue-selon-foot-mercato-quelles-conséq.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/manchester-city-et-allan-elias-quel-prix-à-payer-après-le-probable-départ-de-sav.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/alerta-batalla-salida-en-el-60-tras-choque-con-boyé-y-atención-a-isi.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/nikola-jokic-supera-a-wembanyama-con-una-actuación-destacada-cerca-del-triple-do.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/el-getafe-triunfa-en-europa-con-un-dramático-final-ante-el-partizán.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
