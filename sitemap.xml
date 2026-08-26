@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/joao-pedros-quest-to-break-chelseas-number-nine-curse.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/test-your-football-knowledge-with-bbc-sports-daily-quizzes.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/olivia-smith-becomes-first-woman-footballer-to-cross-1m-mark.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/martin-oneill-accepts-responsibility-after-celtics-defeat-in-austria.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/brighton-sign-promise-david-on-season-long-loan-with-obligation-to-buy-reported-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/premier-league-chief-richard-masters-previews-new-season-in-exclusive-interview.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/troy-parrott-real-betis-transfer-irish-striker-on-brink-of-move-from-az-alkmaar.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/jamal-musiala-collapse-bayern-say-midfielder-to-speak-out-after-second-incident-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تحذيرات-من-تأثير-ضربات-الرأس-على-صحة-اللاعبين-في-كرة-القدم.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/كريستال-بالاس-يسعى-لضم-شادي-رياض-ونجمين-مغربيين-لتعزيز-صفوفه.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/نجوم-يعلنون-الحرب-على-أنديتهم-لتحقيق-حلم-الانتقال-إلى-برشلونة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -409,6 +409,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/عقوبات-قاسية-في-كرة-القدم-الفرنسية-للهواة-بعد-اعتداء-على-حكمين-إيقاف-لاعبين-20-ع.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/حادث-اعتداء-عنيف-في-مباراة-كرة-قدم-يثير-الصدمة-ومطالب-بحماية-اللاعبين.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/إشادة-واسعة-بحديث-الجمهور-حمزة-عبد-الكريم-يهدي-نفسه-تسليط-ضوء-بعد-هدف-رائع-مع-بر.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/fc-barcelone-polémique-autour-du-prochain-match-au-camp-nou.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/mourinho-et-son-commentaire-sur-vinicius-jr-avant-real-madrid-vs-real-sociedad.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-ousmane-dembélé-écarté-avant-le-match-contre-lille.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/jean-lucas-au-cœur-de-tensions-lors-du-derby-brésilien-entre-bahia-et-vitoria.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -608,7 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/manchester-united-débuts-compliqués-après-un-mercato-estival-coûteux.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/manchester-united-battu-par-hull-city-dès-louverture-de-la-premier-league.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/bologne-rejette-une-offre-de-30-m-pour-jonathan-rowe-une-étoile-montante-en-seri.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ligue-2-nantes-sombre-à-domicile-contre-rodez-metz-arrache-le-nul-face-à-laval.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/alerta-batalla-salida-en-el-60-tras-choque-con-boyé-y-atención-a-isi.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/nikola-jokic-supera-a-wembanyama-con-una-actuación-destacada-cerca-del-triple-do.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/el-getafe-triunfa-en-europa-con-un-dramático-final-ante-el-partizán.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
