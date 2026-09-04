@@ -9,6 +9,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/key-storylines-ahead-of-this-weekends-efl-action.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/former-referee-mike-dean-denies-playing-games-during-matches.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/david-moyes-reflects-on-deadline-day-disappointments-at-everton.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/jude-bellingham-thrives-under-mourinho-at-real-madrid.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/no-away-fans-allowed-for-spfl-old-firm-matches-this-season.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -207,8 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/lionel-messi-fined-by-mls-for-slapping-incident-during-inter-miami-match.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/kevin-ellison-discusses-mental-health-and-staying-in-football-at-47.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/challenge-your-football-iq-with-bbc-sports-daily-quizzes.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/james-maddison-reflects-on-family-support-and-life-under-roberto-de-zerbi-after-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/james-maddison-highlights-family-life-amid-acl-injury-recovery.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تفاصيل-احتراق-مخيم-مدرب-غانا-كارلوس-كيروش-في-موزمبيق-وسط-نزاع-مسلح.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/متابعة-مباشرة-مباراة-الهلال-ضد-الشباب-في-الدوري-السعودي-للمحترفين.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/ما-هو-مخطط-سيميوني-لألفاريز-بعد-فشل-انتقاله-إلى-برشلونة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -409,6 +409,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/عودة-رونالدينيو-إلى-إيطاليا-نبش-جديد-للمشجعين-بعد-11-عاما-من-الاعتزال.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مباراة-هلالالفيحاء-في-الدوري-السعودي-20262027-توقعات-ومقارنات-قبل-اللقاء-المباشر.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مباشر-مواجهة-طرابزون-سبور-وفرينكفاروش-في-دورة-الإقصائية-لدوري-أوروبي.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/anthony-martial-proposé-à-un-club-de-premier-league-rebond-potentiel-en-vue.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/chelsea-xabi-alonso-réagit-à-léchec-du-transfert-de-lamine-camara.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ol---auxerre-les-compositions-officielles-et-les-enjeux-de-la-rencontre.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/yassine-benhattab-rejoint-montpellier-un-nouvel-élan-pour-sa-carrière.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/mercato-om-la-nouvelle-crainte-de-bruno-genesio-décryptée.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -607,8 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/le-fc-barcelone-critique-lutilisation-excessive-de-la-force-contre-ses-supporter.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/axel-disasi-prêt-à-rejoindre-crystal-palace-après-sa-visite-médicale.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/fc-barcelone-rassure-sur-la-blessure-de-gavi-après-la-victoire-contre-elche.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/vinicius-dans-la-controverse-après-le-premier-match-du-real-madrid-en-liga.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/fc-barcelone-six-dossiers-de-transfert-cruciaux-à-finaliser.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/el-valencia-y-el-temor-al-descenso-un-inicio-de-temporada-complicado.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/barcola-refuerza-al-equipo-de-iraola-traspaso-histórico-desde-el-psg.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/liv-golf-enfrenta-dificultades-financieras-con-propuestas-para-extinguir-contrat.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
