@@ -9,6 +9,9 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/yves-bissouma-offered-to-chelsea-amid-premier-league-transfer-rumours.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/newcastle-united-vs-bournemouth-player-ratings-and-key-performances.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/chelseas-wsl-title-ambitions-questioned-after-opening-game-setback.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/wsl-2023-arsenal-vs-chelsea-has-the-balance-of-power-shifted-in-london.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/liverpool-sporting-director-richard-hughes-departs-for-al-hilal-role.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/manchester-uniteds-midfield-revamp-examining-summer-success-and-selection-challe.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -206,9 +209,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/brentford-v-spurs-player-ratings-top-performers-and-tough-nights.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/daniel-farke-praises-leeds-united-after-premier-league-victory-over-nottingham-f.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/oliver-glasners-nottingham-forest-tenure-begins-with-defeat-to-leeds.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/jean-philippe-mateta-disputes-final-year-of-crystal-palace-contract.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/hull-city-stun-manchester-united-in-dream-season-opener.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/hull-city-stun-manchester-united-jakirovic-praises-tactical-discipline.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/لحظات-مؤثرة-سفيان-رحيمي-يودع-والده-وسط-تضامن-كبير.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/اجتماع-ميسي-ورونالدو-في-فريق-واحد-حلم-أصبح-قريبا.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تعيين-حمداني-مدربا-جديدا-للمنتخب-الجزائري-خلفا-لبيتكوفيتش.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -409,6 +409,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/ريال-مدريد-و24-مليار-يورو-رقم-قياسي-يؤكد-تفوقه-التجاري-بين-أندية-العالم.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/إيمان-خليف-تحرك-مفاجئ-في-الملاكمة-الجزائرية-بألعاب-المتوسط-ماذا-يعني-هذا.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مشجع-بالزي-الفرعوني-يسرق-الأضواء-في-شوارع-طرابزون-خلال-دعم-صلاح-في-أولى-مبارياته.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ligue-3-thionville-et-la-roche-sur-yon-en-tête-el-khoumisti-brille-avec-caen.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/neymar-blessé-lors-de-lélimination-de-santos-en-coupe-du-brésil.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/flávio-nazinho-brille-en-début-de-saison-à-monaco-en-ligue-1.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/everton-léchec-du-transfert-de-folarin-balogun-analysé.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -608,7 +609,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/manchester-city-rejoint-tottenham-dans-la-course-pour-cody-gakpo.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/psg-luis-enrique-prend-une-décision-ferme-face-à-rennes.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/rc-lens-sintéresse-au-prometteur-nathan-zézé.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/la-juventus-cherche-à-renforcer-lattaque-en-rivalisant-avec-randal-kolo-muani.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/el-valencia-y-el-temor-al-descenso-un-inicio-de-temporada-complicado.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/barcola-refuerza-al-equipo-de-iraola-traspaso-histórico-desde-el-psg.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/es/liv-golf-enfrenta-dificultades-financieras-con-propuestas-para-extinguir-contrat.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
