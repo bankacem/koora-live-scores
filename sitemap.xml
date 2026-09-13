@@ -9,6 +9,7 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ucl</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=ksa</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/?league=egypt</loc><changefreq>hourly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/rangers-secure-convincing-old-firm-victory-at-ibrox-mcinnes-emphasises-togethern.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/preston-north-end-appoints-new-manager-after-paul-heckingbottoms-dismissal.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/hull-city-maintains-unbeaten-premier-league-run-as-chelsea-secures-point-in-a-th.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/aston-villas-early-premier-league-struggle-leaves-unai-emery-seeking-answers.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -208,7 +209,8 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/enzo-maresca-hails-deserved-victory-in-manchester-citys-premier-league-opener.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/unai-emery-calls-for-reflection-after-aston-villas-heavy-loss-to-brighton.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/marescas-bold-midfield-experiment-earns-plaudits-in-premier-league-debut.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/en/newcastle-and-liverpool-honour-kevin-keegan-on-premier-league-opening-weekend.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/الهتافات-المسيئة-لجوبين-نيفيز-كيف-استجابت-فرق-الهلال-وتعاون-للحكم-على-الموقف.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مباراة-النصر-ضد-العين-في-دوري-أبطال-آسيا-202627-موعد-ومعلومات-القنوات.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/الدوري-الإنجليزي-الممتاز-أرسنال-يتفوق-على-تشيلسي-وإيفرتون-يخطف-تعادلا-قاتلا-من-م.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/مبابي-يتوعد-مهاجم-إنتر-ميلان-قبل-مواجهة-دوري-أبطال-أوروبا.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/برشلونة-يواجه-فاينورد-في-دوري-أبطال-أوروبا-موعد-المباراة-والقنوات-الناقلة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -407,8 +409,6 @@
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/لغز-جديد-في-قضية-وفاة-مارادونا-يعلق-جلسات-المحاكمة.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/هل-يحتاج-رونالدو-إلى-وظيفة-بعد-الاعتزال-إمبراطورية-اقتصادية-تناقش-المستقبل.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/توني-كروس-يفاجئ-الجميع-بترشيحه-غير-المتوقع-للكرة-الذهبية.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تصاعد-الصراعات-القارية-بين-الاتحاد-الأوروبي-وإنفانتينو-وسط-جدل-مشروع-دوري-الأمم-.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bankacem.github.io/koora-live-scores/articles/ar/تشكيلة-مثالية-بلمسة-جزائرية-ومغربية-في-كأس-أفريقيا-للسيدات.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/om-amine-gouiri-brille-avec-un-deuxième-but-contre-le-paris-fc.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/hakim-ziyech-prêt-à-signer-avec-botafogo-nouvelle-étape-pour-linternational-maro.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://bankacem.github.io/koora-live-scores/articles/fr/ligue-1-les-compositions-officielles-dom-et-paris-fc-révélées.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
